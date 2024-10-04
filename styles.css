@@ -117,10 +117,16 @@ body {
     padding-top: 10px;
 }
 
-.post-interactions span {
+.post-interactions span,
+.post-interactions a {
     font-size: 14px;
     color: gray;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.post-interactions a:hover {
+    color: #1da1f2;
 }
 
 /* Sticky Bottom Navigation Bar */
@@ -149,14 +155,17 @@ body {
     font-size: 12px;
 }
 
-.nav-item img {
-    width: 24px;
-    height: 24px;
+.nav-item .emoji {
+    font-size: 24px;
     margin-bottom: 5px;
 }
 
 .nav-item span {
     font-size: 10px;
+}
+
+.nav-item:hover {
+    color: #1da1f2;
 }
 
 @media (max-width: 768px) {
